@@ -18,7 +18,7 @@ function handleSubmit(event) {
     y = Math.ceil(Math.random() * 9) + 1;
     rightAnswer = x * y;
     problem.innerText = `${x}X${y}`;
-    result.innerText = "good";
+    result.innerText = "good, dude";
     input.focus();
     input.value = "";
   } else {
